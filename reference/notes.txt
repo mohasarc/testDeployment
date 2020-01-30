@@ -1,0 +1,20 @@
+** npm comes with node
+** npm init                  to create .json file that stores information about all dependencies
+** npm install pkgName       to install that package locally
+** npm install -g pkgName    to install that package globally
+
+** node comes with many modules including
+   node core modules (path, fs, http, etc)
+   3rd party modules/ pkgs installed via npm
+   custom modules (which are files that have export in them)
+
+To include modules use :
+
+const path = require('path');
+const myFile = require ('./myFile');
+
+** you can also install dev dependencies (ones just for developement)
+npm install --save-dev modulename
+npm install -D modulename          // other way
+
+// use docs https://nodejs.org/dist/latest-v13.x/docs/api/path.html
